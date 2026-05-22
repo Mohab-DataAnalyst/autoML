@@ -1,4 +1,4 @@
-[!Logo](https://github.com/Mohab-DataAnalyst/autoML/blob/main/automl.jpg)
+![Logo](https://github.com/Mohab-DataAnalyst/autoML/blob/main/automl.jpg)
 # AutoML Tool
 
 AutoML Tool is an end-to-end AutoML-style web application for uploading tabular datasets, reviewing data quality recommendations, training multiple machine learning models, comparing results, and exporting the best trained model as a reusable `.joblib` bundle.
