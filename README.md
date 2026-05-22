@@ -124,28 +124,3 @@ http://localhost:5173
 ```
 
 If the backend is running on `8000`, the frontend can also use its default API URL without setting `VITE_API_BASE_URL`.
-
-## Local Run Notes
-
-On this laptop, I confirmed that the backend runs successfully after creating a Windows virtual environment and installing `data_eng_ml/requirements.txt`. The checked-in `.venv` inside `data_eng_ml/` was created on macOS and should not be used on Windows.
-
-The frontend source and dependencies are present, but the local shell could not execute the bundled Node/npm command because `node.exe` was blocked by Windows permissions. To run the frontend on this laptop, install Node.js normally or open a terminal where `node` and `npm` are available, then use the frontend commands above.
-
-## Model Bundle
-
-The downloaded `.joblib` file contains:
-
-- the fitted model,
-- feature names,
-- task type,
-- target column,
-- label encoder when used,
-- preprocessing artifacts needed to understand the training transformations.
-
-## Future Improvements
-
-- Add a prediction endpoint that loads a saved model bundle and scores new uploaded records.
-- Add persistent project/session storage using a database instead of local JSON files.
-- Add authentication for multi-user workflows.
-- Add automated tests for preprocessing edge cases and API contracts.
-- Package the backend and frontend with Docker Compose for one-command startup.
