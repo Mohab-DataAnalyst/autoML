@@ -1,6 +1,6 @@
-# AutoML Project
+# AutoML Tool
 
-AutoML Project is an end-to-end AutoML-style web application for uploading tabular datasets, reviewing data quality recommendations, training multiple machine learning models, comparing results, and exporting the best trained model as a reusable `.joblib` bundle.
+AutoML Tool is an end-to-end AutoML-style web application for uploading tabular datasets, reviewing data quality recommendations, training multiple machine learning models, comparing results, and exporting the best trained model as a reusable `.joblib` bundle.
 
 The project is split into two main parts:
 
