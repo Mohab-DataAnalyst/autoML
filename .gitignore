@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+.venv-win/
+venv/
+env/
+
+# Backend runtime artifacts
+data_eng_ml/sessions/
+data_eng_ml/saved_models/
+*.joblib
+*.pkl
+*.log
+
+# Node / frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment files
+.env
+.env.*
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
