@@ -8,6 +8,14 @@ The project is split into two main parts:
 - `data_eng_ml/`: the ML backend and FastAPI service.
 - `frontend/`: a React + TypeScript + Material UI wizard for upload, task configuration, recommendation review, training, results, and model download.
 
+## Snapshots
+<p align="center">
+  <img src="https://github.com/Mohab-DataAnalyst/autoML/blob/main/snapshots/automl_pic1.PNG" width="800" height="500"/>
+  <img src="https://github.com/Mohab-DataAnalyst/autoML/blob/main/snapshots/automl_pic2.PNG" width="800" height="500"/>
+  <img src="https://github.com/Mohab-DataAnalyst/autoML/blob/main/snapshots/automl_pic3.PNG" width="800" height="500"/>
+  <img src="https://github.com/Mohab-DataAnalyst/autoML/blob/main/snapshots/automl_pic4.PNG" width="800" height="500"/>
+</p>
+
 ## What I Worked On
 
 I collaborated on the project by building the ML backend layer in `data_eng_ml/`, including the core machine learning pipeline and API integration. My work focused on turning uploaded datasets into an automated, user-guided modeling workflow:
